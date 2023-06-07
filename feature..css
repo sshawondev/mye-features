@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto+Mono&display=swap');
+
+
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7.5vw;
+}
+
+.logo{
+   display: flex;
+  gap: 2vw;
+   
+}
+
+.nav-list{
+    display: flex;
+    gap: 2vw;
+}
+
+.menu-item{
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.menu-item:hover{
+    font-weight: 500;
+    color: rgb(157, 157, 246);
+    cursor: pointer;
+}
+
+.auth{
+    display: flex;
+    gap: 2vw;
+}
+
+.login-btn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color: #065089;
+    list-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.signup-btn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color:#FFC677;
+    list-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 4px 2px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+
+.btn:hover{
+    background-color: cyan;
+    color: rgb(9, 9, 131);
+}
+
+.hero{
+    display: flex;
+    background-color: #99CAFF;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    padding: 60px 0px;
+    transform: none;
+    
+}
+
+.copy{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-header{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.hero-text{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    flex-wrap: wrap;
+    width: 30vw;
+    
+}
+
+.btn{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+    width: 150px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    background-color:#FFC677;
+    list-style: none;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.btn img {
+    vertical-align: middle;
+    margin-left: 10px;
+  }
+
+  .hero2{
+    display: flex;
+    background-color: #F3F6FB;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    padding: 60px 0px;
+    transform: none;
+    
+}
+
+.copy2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-header2{
+    color: rgb(7, 7, 7);
+    display: flex;
+    flex-wrap: wrap;
+    width: 30vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.hero-text2{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(7, 7, 7);
+    flex-wrap: wrap;
+    width: 30vw;
+}
+
+.hero3{
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    padding: 60px 0px;
+    transform: none;
+    
+}
+
+.hero4{
+    display: flex;
+    background-color: #DCFFE4;
+    justify-content: center;
+    align-items: center;
+    gap: 8vw;
+    padding: 60px 0px;
+    transform: none;
+    
+}
+.footer{
+    background-color: #03032B;
+    display: flex;
+    gap: 1vw;
+   
+}
+
+  .logo-footer {
+    justify-content: flex-start;
+    max-width: 500%;
+    height: auto;
+    gap: 2vw;
+    padding-left: 150px;
+    padding-top: 30px;
+   
+  }
+  
+
+    .footer-header{
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 100;
+        font-size: 11px;
+}
+
+
+.footer-list .menu-item {
+    justify-content: flex-end;
+    margin-bottom: 15px;
+    color: rgba(255, 255, 255, 0.947);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 9px;
+    gap: 5px;
+    width: 10vw;
+    text-align: left;
+}
+
+#menu-icon{
+    font-size: 35px;
+    color: var(--text-color);
+    cursor: pointer;
+    z-index: 10001;
+}
